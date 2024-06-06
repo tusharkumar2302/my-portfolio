@@ -39,7 +39,7 @@
       </div>
     </div>
 
-    <!-- Navigasi pagination -->
+    <!-- Navigation pagination -->
     <nav class="mt-4">
       <ul class="flex justify-center space-x-4">
         <li v-if="currentPage > 1">
