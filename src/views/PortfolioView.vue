@@ -14,16 +14,16 @@ export default {
           demo: 'https://saint-mia.onrender.com/',
           category: 'web'
         },
-        {
-          id: 2,
-          name: 'Laravel-Vue E-Commerce',
-          imageUrl: 'laravel-vue',
-          status: 'E-commerce application built with Laravel, Vue.js, Tailwind.css and Alpine.js.',
-          tech: 'Laravel, Vue Js, Tailwind, Alphine Js, Html, Css',
-          github: 'https://github.com/rizkinugrohho/laravel-vue',
-          demo: 'https://github.com/rizkinugrohho/laravel-vue',
-          category: 'web'
-        },
+        // {
+        //   id: 2,
+        //   name: 'Laravel-Vue E-Commerce',
+        //   imageUrl: 'laravel-vue',
+        //   status: 'E-commerce application built with Laravel, Vue.js, Tailwind.css and Alpine.js.',
+        //   tech: 'Laravel, Vue Js, Tailwind, Alphine Js, Html, Css',
+        //   github: 'https://github.com/rizkinugrohho/laravel-vue',
+        //   demo: 'https://github.com/rizkinugrohho/laravel-vue',
+        //   category: 'web'
+        // },
         {
           id: 3,
           name: 'Nike Landing Page',
@@ -34,46 +34,46 @@ export default {
           demo: 'https://rizkinugrohho.github.io/nike-landing-page/',
           category: 'web'
         },
-        {
-          id: 4,
-          name: 'Booking Hotel Web',
-          imageUrl: 'portfolio-hotel',
-          status: 'A Simple Hotel Booking Website. This project aims to create a user-friendly platform for booking hotel accommodations.',
-          tech: 'Php, Ajax, Javascript, Boostrap',
-          github: 'https://github.com/rizkinugrohho/booking-hotel',
-          demo: 'null',
-          category: 'web'
-        },
         // {
-        //   id: 5,
-        //   name: 'Personal Website',
-        //   imageUrl: 'portfolio_v2',
-        //   status: 'My personal website, I created this website to display my profile, skills and projects. As well as my place to try new technology.',
-        //   tech: 'VueJS 3, NodeJs, Tailwind',
-        //   github: 'https://github.com/rizkinugrohho/my-portofolio-v2',
-        //   demo: 'rizkinugroho.netlify.app',
+        //   id: 4,
+        //   name: 'Booking Hotel Web',
+        //   imageUrl: 'portfolio-hotel',
+        //   status: 'A Simple Hotel Booking Website. This project aims to create a user-friendly platform for booking hotel accommodations.',
+        //   tech: 'Php, Ajax, Javascript, Boostrap',
+        //   github: 'https://github.com/rizkinugrohho/booking-hotel',
+        //   demo: 'null',
         //   category: 'web'
         // },
         {
-          id: 6,
-          name: 'Weather App',
-          imageUrl: 'weatherapp',
-          status: 'Android Mobile Application that shows todays weather and weather forecast for the next 5 days in various cities and countries.',
-          tech: 'Kotlin, RestAPi, Android',
-          github: 'https://github.com/rizkinugrohho/MobileApplication_Weather-App',
-          demo: 'https://github.com/rizkinugrohho/MobileApplication_Weather-App',
-          category: 'mobile'
+          id: 5,
+          name: 'Personal Website',
+          imageUrl: 'portfolio_v1',
+          status: 'My personal website, I created this website to display my profile, skills and projects. As well as my place to try new technology.',
+          tech: 'VueJS 3, NodeJs, Tailwind',
+          github: 'https://github.com/tusharkumar2302/my-portfolio',
+          demo: 'rizkinugroho.netlify.app',
+          category: 'web'
         },
-        {
-          id: 7,
-          name: 'Mandiri News App',
-          imageUrl: 'mandiri',
-          status: 'Challenge from Bank Mandiri - Creating an Android Mobile Application that displays a list of news using API from https://newsapi.org',
-          tech: 'Kotlin, RestAPi, Android',
-          github: 'https://github.com/rizkinugrohho/MobileApplication_MandiriNews',
-          demo: 'https://github.com/rizkinugrohho/MobileApplication_MandiriNews',
-          category: 'mobile'
-        },
+        // {
+        //   id: 6,
+        //   name: 'Weather App',
+        //   imageUrl: 'weatherapp',
+        //   status: 'Android Mobile Application that shows todays weather and weather forecast for the next 5 days in various cities and countries.',
+        //   tech: 'Kotlin, RestAPi, Android',
+        //   github: 'https://github.com/rizkinugrohho/MobileApplication_Weather-App',
+        //   demo: 'https://github.com/rizkinugrohho/MobileApplication_Weather-App',
+        //   category: 'mobile'
+        // },
+        // {
+        //   id: 7,
+        //   name: 'Mandiri News App',
+        //   imageUrl: 'mandiri',
+        //   status: 'Challenge from Bank Mandiri - Creating an Android Mobile Application that displays a list of news using API from https://newsapi.org',
+        //   tech: 'Kotlin, RestAPi, Android',
+        //   github: 'https://github.com/rizkinugrohho/MobileApplication_MandiriNews',
+        //   demo: 'https://github.com/rizkinugrohho/MobileApplication_MandiriNews',
+        //   category: 'mobile'
+        // },
         {
           id: 8,
           name: 'Progresive Web App React Js',
