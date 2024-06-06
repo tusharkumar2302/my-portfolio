@@ -4,13 +4,13 @@ export default {
     return {
       activeTab: 1,
       tech: [
-        {
-          id: 1,
-          name: "Kotlin",
-          imageUrl:
-            "https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/kotlin-programming-language-icon.png",
-          status: "Intermediate",
-        },
+        // {
+        //   id: 1,
+        //   name: "Kotlin",
+        //   imageUrl:
+        //     "https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/kotlin-programming-language-icon.png",
+        //   status: "Intermediate",
+        // },
         // {
         //   id: 2,
         //   name: "Flutter",
@@ -73,13 +73,13 @@ export default {
         //   imageUrl: "https://cdn.worldvectorlogo.com/logos/laravel-2.svg",
         //   status: "Advance",
         // },
-        {
-          id: 11,
-          name: "Java",
-          imageUrl:
-            "https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/181_Java_logo_logos-256.png",
-          status: "Intermediate",
-        },
+        // {
+        //   id: 11,
+        //   name: "Java",
+        //   imageUrl:
+        //     "https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/181_Java_logo_logos-256.png",
+        //   status: "Intermediate",
+        // },
         {
           id: 12,
           name: "Tailwind",
@@ -143,7 +143,7 @@ export default {
   methods: {
     downloadResume() {
       window.open(
-        "https://drive.google.com/file/d/1xpxskcdqM6JSIXW63ZWwpa9dxD0pjOZq/view?usp=sharing",
+        "https://drive.google.com/drive/folders/1kque2N6DRdftKRRj2Zd3KhOcZtv4xvu9",
         "_blank"
       );
     },
@@ -155,7 +155,7 @@ export default {
     },
     email() {
       window.open(
-        "mailto:tusharkumar27864@gamil.com?subject=Hello,%20I%20have%20a%20job%20for%20you.",
+        "mailto:tusharkumar27864@gmail.com?subject=Hello,%20I%20have%20a%20job%20for%20you.",
         "_blank"
       );
     },
@@ -185,8 +185,8 @@ export default {
       >
         <div class="flex justify-center">
           <img
-            class="w-9/12 rounded-full mb-3 fadein-up"
-            src=""
+            class="w-7/12 rounded-full mb-3 fadein-up"
+            src="../assets/picture2.jpg"
             alt="Foto"
           />
         </div>
@@ -194,7 +194,7 @@ export default {
           <p class="text-base mb-3 md:mb-7 fadein-left fadeins-1">
             &nbsp; &nbsp; &nbsp; Hi everyone! My name is Tushar Kumar. I am an
             22 year old living in Haryana, India. I have over 2 years of
-            experience in Front-end Engineer. Mastered various programming
+            experience in Front-end Engineering. Mastered various programming
             languages and frameworks.
           </p>
           <p class="text-base mb-3 fadein-left fadeins-2">
@@ -206,7 +206,6 @@ export default {
             are interested in hiring me, please contact the listed contact.
           </p>
           <div class="py-3 flex">
-            <!-- Tombol pertama 
             <button
         class="fadein-bot fade-500 flex items-center py-2 px-4 text-sm font-medium rounded-lg border transition duration-300 md:py-2.5 md:px-5 text-sky-200 border-sky-200 hover:bg-sky-200 hover:bg-opacity-10 bg-transparent focus:outline-none"
         @click="downloadResume"><svg
@@ -217,19 +216,27 @@ export default {
           <path
             d="M14.25 5.25a5.23 5.23 0 00-1.279-3.434 9.768 9.768 0 016.963 6.963A5.23 5.23 0 0016.5 7.5h-1.875a.375.375 0 01-.375-.375V5.25z">
           </path>
-        </svg>Download Resume</button> -->
-            <!-- Tombol Kedua -->
+        </svg>Download Resume</button> 
             <button
               class="fadein-bot fade-500 flex items-center py-2 px-4 text-sm font-medium rounded-lg border transition duration-300 md:py-2.5 md:px-5 text-sky-200 border-sky-200 hover:bg-sky-200 hover:bg-opacity-10 bg-transparent focus:outline-none ml-2"
-              @click="whatsApp"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
-                class="mr-2 w-4 h-4">
-                <path fill-rule="evenodd"
-                  d="M5.625 1.5H9a3.75 3.75 0 013.75 3.75v1.875c0 1.036.84 1.875 1.875 1.875H16.5a3.75 3.75 0 013.75 3.75v7.875c0 1.035-.84 1.875-1.875 1.875H5.625a1.875 1.875 0 01-1.875-1.875V3.375c0-1.036.84-1.875 1.875-1.875zm5.845 17.03a.75.75 0 001.06 0l3-3a.75.75 0 10-1.06-1.06l-1.72 1.72V12a.75.75 0 00-1.5 0v4.19l-1.72-1.72a.75.75 0 00-1.06 1.06l3 3z"
-                  clip-rule="evenodd"></path>
+              @click="whatsApp"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                fill="currentColor"
+                class="mr-2 w-4 h-4"
+              >
                 <path
-                  d="M14.25 5.25a5.23 5.23 0 00-1.279-3.434 9.768 9.768 0 016.963 6.963A5.23 5.23 0 0016.5 7.5h-1.875a.375.375 0 01-.375-.375V5.25z">
-                </path>
-              </svg>WhatsApp</button>
+                  fill-rule="evenodd"
+                  d="M5.625 1.5H9a3.75 3.75 0 013.75 3.75v1.875c0 1.036.84 1.875 1.875 1.875H16.5a3.75 3.75 0 013.75 3.75v7.875c0 1.035-.84 1.875-1.875 1.875H5.625a1.875 1.875 0 01-1.875-1.875V3.375c0-1.036.84-1.875 1.875-1.875zm5.845 17.03a.75.75 0 001.06 0l3-3a.75.75 0 10-1.06-1.06l-1.72 1.72V12a.75.75 0 00-1.5 0v4.19l-1.72-1.72a.75.75 0 00-1.06 1.06l3 3z"
+                  clip-rule="evenodd"
+                ></path>
+                <path
+                  d="M14.25 5.25a5.23 5.23 0 00-1.279-3.434 9.768 9.768 0 016.963 6.963A5.23 5.23 0 0016.5 7.5h-1.875a.375.375 0 01-.375-.375V5.25z"
+                ></path></svg
+              >WhatsApp
+            </button>
             <!-- Tombol Ketiga -->
             <button
               class="fadein-bot fade-500 flex items-center py-2 px-4 text-sm font-medium rounded-lg border transition duration-300 md:py-2.5 md:px-5 text-sky-200 border-sky-200 hover:bg-sky-200 hover:bg-opacity-10 bg-transparent focus:outline-none ml-2"

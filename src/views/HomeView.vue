@@ -26,7 +26,7 @@
         </svg>Download Resume</button> -->
     </div>
     <div class="flex justify-center md:justify-start fadein-right"><img alt="avatar" fetchpriority="high" width="300" height="300" decoding="async" data-nimg="1"
-        class="w-10/12 md:h-auto rounded-full border-4 border-sky-200 pict" src="selfie.png">
+        class="w-7/12 md:h-auto rounded-full border-4 border-sky-200 pict" src="../assets/selfie.png">
     </div>
   </main>
 </template>
@@ -50,7 +50,6 @@ export default {
   },
   methods: {
     downloadResume() {
-      // Ganti tautan berikut dengan tautan Google Drive yang sesuai
       window.open('https://drive.google.com/file/d/1xpxskcdqM6JSIXW63ZWwpa9dxD0pjOZq/view?usp=sharing', '_blank');
     },
     tick() {

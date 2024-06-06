@@ -44,16 +44,16 @@ export default {
           demo: 'null',
           category: 'web'
         },
-        {
-          id: 5,
-          name: 'Personal Website',
-          imageUrl: 'portfolio_v2',
-          status: 'My personal website, I created this website to display my profile, skills and projects. As well as my place to try new technology.',
-          tech: 'VueJS 3, NodeJs, Tailwind',
-          github: 'https://github.com/rizkinugrohho/my-portofolio-v2',
-          demo: 'rizkinugroho.netlify.app',
-          category: 'web'
-        },
+        // {
+        //   id: 5,
+        //   name: 'Personal Website',
+        //   imageUrl: 'portfolio_v2',
+        //   status: 'My personal website, I created this website to display my profile, skills and projects. As well as my place to try new technology.',
+        //   tech: 'VueJS 3, NodeJs, Tailwind',
+        //   github: 'https://github.com/rizkinugrohho/my-portofolio-v2',
+        //   demo: 'rizkinugroho.netlify.app',
+        //   category: 'web'
+        // },
         {
           id: 6,
           name: 'Weather App',
@@ -95,20 +95,20 @@ export default {
           category: 'web'
         }
       ],
-      filteredItems: [] // Daftar proyek yang telah difilter
+      filteredItems: [] 
     };
   },
   methods: {
     filterByCategory(category) {
       if (category === 'all') {
-        this.filteredItems = this.items; // Menampilkan semua proyek
+        this.filteredItems = this.items; 
       } else {
-        this.filteredItems = this.items.filter(item => item.category === category); // Filter berdasarkan kategori
+        this.filteredItems = this.items.filter(item => item.category === category); 
       }
     }
   },
   mounted() {
-    this.filteredItems = this.items; // Set daftar proyek awal saat komponen dimuat
+    this.filteredItems = this.items; 
   }
 };
 </script>
@@ -204,12 +204,10 @@ svg:hover {
 }
 
 
-/* Menggunakan animasi pada elemen yang diinginkan */
 .fade-zoom-in {
   animation: fadeZoomIn 1s ease-in-out;
 }
 
-/* Gaya untuk tombol filter */
 .filter-container {
   display: flex;
   gap: 10px;
@@ -218,14 +216,14 @@ svg:hover {
 }
 
 .filter-btn {
-  padding: 8px 16px; /* Padding untuk panjang border yang sama rata */
-  border: 2px solid #87CEEB; /* Warna border biru langit */
-  border-radius: 5px; /* Atur radius border sesuai kebutuhan */
-  color: #fff; /* Warna teks putih */
-  font-size: 14px; /* Ukuran font */
+  padding: 8px 16px; 
+  border: 2px solid #87CEEB; 
+  border-radius: 5px; 
+  color: #fff; 
+  font-size: 14px; 
   cursor: pointer;
   transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
-  box-sizing: border-box; /* Ukuran border sesuai padding */
+  box-sizing: border-box; 
  
 }
 
