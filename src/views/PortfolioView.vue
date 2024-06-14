@@ -10,8 +10,8 @@ export default {
           imageUrl: 'saint',
           status: 'Website to convert productive generative AI computing power into cryptocurrency mining.',
           tech: 'Python, Vue Js, Tailwind, Css',
-          github: 'https://saint-mia.onrender.com/',
-          demo: 'https://saint-mia.onrender.com/',
+          // github: 'https://saint-mia.onrender.com/',
+          // demo: 'https://saint-mia.onrender.com/',
           category: 'web'
         },
         // {
@@ -24,16 +24,16 @@ export default {
         //   demo: 'https://github.com/rizkinugrohho/laravel-vue',
         //   category: 'web'
         // },
-        {
-          id: 3,
-          name: 'Nike Landing Page',
-          imageUrl: 'landingpage',
-          status: 'Discover stylish Nike arrivals, quality comfort, and innovation for your active life.',
-          tech: 'Vite, React, Tailwind, Javascript, Html, Css',
-          github: 'https://github.com/rizkinugrohho/nike-landing-page',
-          demo: 'https://rizkinugrohho.github.io/nike-landing-page/',
-          category: 'web'
-        },
+        // {
+        //   id: 3,
+        //   name: 'Nike Landing Page',
+        //   imageUrl: 'landingpage',
+        //   status: 'Discover stylish Nike arrivals, quality comfort, and innovation for your active life.',
+        //   tech: 'Vite, React, Tailwind, Javascript, Html, Css',
+        //   github: 'https://github.com/rizkinugrohho/nike-landing-page',
+        //   demo: 'https://rizkinugrohho.github.io/nike-landing-page/',
+        //   category: 'web'
+        // },
         // {
         //   id: 4,
         //   name: 'Booking Hotel Web',
@@ -45,13 +45,13 @@ export default {
         //   category: 'web'
         // },
         {
-          id: 5,
+          id: 2,
           name: 'Personal Website',
           imageUrl: 'portfolio_v1',
           status: 'My personal website, I created this website to display my profile, skills and projects. As well as my place to try new technology.',
           tech: 'VueJS 3, NodeJs, Tailwind',
-          github: 'https://github.com/tusharkumar2302/my-portfolio',
-          demo: 'rizkinugroho.netlify.app',
+          // github: 'https://github.com/tusharkumar2302/my-portfolio',
+          // demo: 'rizkinugroho.netlify.app',
           category: 'web'
         },
         // {
@@ -74,26 +74,26 @@ export default {
         //   demo: 'https://github.com/rizkinugrohho/MobileApplication_MandiriNews',
         //   category: 'mobile'
         // },
-        {
-          id: 8,
-          name: 'Progresive Web App React Js',
-          imageUrl: 'webapp',
-          status: 'a progressive e-commerce web application, which has Push Notification Features, App Banner (Add to Home Screen), Splash screen on the application, Service Worker with Workbox JS.',
-          tech: 'ReactJs, NodeJs, Tailwind',
-          github: 'https://github.com/rizkinugrohho/Web_Apps_With_React_Js',
-          demo: 'https://web-apps-phi.vercel.app/',
-          category: 'web'
-        },
-        {
-          id: 9,
-          name: 'Bookshelf App',
-          imageUrl: 'bookshelf',
-          status: 'allows users to search for books, view book details, leave reviews, add books to favorites, and view example categories of books.',
-          tech: 'Javascript',
-          github: 'https://github.com/rizkinugrohho/bookshelf-apps',
-          demo: 'bookshelf-appli.netlify.app/',
-          category: 'web'
-        }
+        // {
+        //   id: 8,
+        //   name: 'Progresive Web App React Js',
+        //   imageUrl: 'webapp',
+        //   status: 'a progressive e-commerce web application, which has Push Notification Features, App Banner (Add to Home Screen), Splash screen on the application, Service Worker with Workbox JS.',
+        //   tech: 'ReactJs, NodeJs, Tailwind',
+        //   github: 'https://github.com/rizkinugrohho/Web_Apps_With_React_Js',
+        //   demo: 'https://web-apps-phi.vercel.app/',
+        //   category: 'web'
+        // },
+        // {
+        //   id: 9,
+        //   name: 'Bookshelf App',
+        //   imageUrl: 'bookshelf',
+        //   status: 'allows users to search for books, view book details, leave reviews, add books to favorites, and view example categories of books.',
+        //   tech: 'Javascript',
+        //   github: 'https://github.com/rizkinugrohho/bookshelf-apps',
+        //   demo: 'bookshelf-appli.netlify.app/',
+        //   category: 'web'
+        // }
       ],
       filteredItems: [] 
     };

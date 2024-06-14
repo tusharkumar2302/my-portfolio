@@ -44,7 +44,7 @@ export default {
           name: "VueJS",
           imageUrl:
             "https://cdn.iconscout.com/icon/free/png-256/free-vue-282497.png?f=webp",
-          status: "Advance",
+          status: "Intermediate",
         },
         {
           id: 7,
@@ -192,31 +192,42 @@ export default {
         </div>
         <div class="md:w-7/12">
           <p class="text-base mb-3 md:mb-7 fadein-left fadeins-1">
-            &nbsp; &nbsp; &nbsp; Hi everyone! My name is Tushar Kumar. I am an
-            22 year old living in Haryana, India. I have over 2 years of
-            experience in Front-end Engineering. Mastered various programming
-            languages and frameworks.
+            &nbsp; &nbsp; &nbsp; Hi everyone! My name is Tushar Kumar, a
+            22-year-old Full Stack Developer from India. With over 2+ years of
+            experience, I specialize in creating functional, user-friendly, and
+            visually appealing websites and applications. I am proficient in a
+            wide range of programming languages and frameworks, including
+            TypeScript, ReactJs, React-Native, Node.js, and AWS.
           </p>
           <p class="text-base mb-3 fadein-left fadeins-2">
-            &nbsp; &nbsp; &nbsp; My job is to build your website or applications
-            to be functional and user-friendly yet still attractive. In
-            addition, I provide a personal touch to your product and ensure that
-            the website catches attention and is easy to use. My goal is to
-            convey your message and identity in the most creative way. If you
-            are interested in hiring me, please contact the listed contact.
+            &nbsp; &nbsp; &nbsp; My focus is on ensuring that your digital
+            products not only perform flawlessly but also stand out with a
+            personal touch. I aim to effectively convey your message and brand
+            identity through creative and intuitive design also making sure that it is easy to use. If you're looking to
+            enhance your online presence, feel free to reach out to me at the
+            listed contact.
           </p>
           <div class="py-3 flex">
             <button
-        class="fadein-bot fade-500 flex items-center py-2 px-4 text-sm font-medium rounded-lg border transition duration-300 md:py-2.5 md:px-5 text-sky-200 border-sky-200 hover:bg-sky-200 hover:bg-opacity-10 bg-transparent focus:outline-none"
-        @click="downloadResume"><svg
-          xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="mr-2 w-4 h-4">
-          <path fill-rule="evenodd"
-            d="M5.625 1.5H9a3.75 3.75 0 013.75 3.75v1.875c0 1.036.84 1.875 1.875 1.875H16.5a3.75 3.75 0 013.75 3.75v7.875c0 1.035-.84 1.875-1.875 1.875H5.625a1.875 1.875 0 01-1.875-1.875V3.375c0-1.036.84-1.875 1.875-1.875zm5.845 17.03a.75.75 0 001.06 0l3-3a.75.75 0 10-1.06-1.06l-1.72 1.72V12a.75.75 0 00-1.5 0v4.19l-1.72-1.72a.75.75 0 00-1.06 1.06l3 3z"
-            clip-rule="evenodd"></path>
-          <path
-            d="M14.25 5.25a5.23 5.23 0 00-1.279-3.434 9.768 9.768 0 016.963 6.963A5.23 5.23 0 0016.5 7.5h-1.875a.375.375 0 01-.375-.375V5.25z">
-          </path>
-        </svg>Download Resume</button> 
+              class="fadein-bot fade-500 flex items-center py-2 px-4 text-sm font-medium rounded-lg border transition duration-300 md:py-2.5 md:px-5 text-sky-200 border-sky-200 hover:bg-sky-200 hover:bg-opacity-10 bg-transparent focus:outline-none"
+              @click="downloadResume"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                fill="currentColor"
+                class="mr-2 w-4 h-4"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M5.625 1.5H9a3.75 3.75 0 013.75 3.75v1.875c0 1.036.84 1.875 1.875 1.875H16.5a3.75 3.75 0 013.75 3.75v7.875c0 1.035-.84 1.875-1.875 1.875H5.625a1.875 1.875 0 01-1.875-1.875V3.375c0-1.036.84-1.875 1.875-1.875zm5.845 17.03a.75.75 0 001.06 0l3-3a.75.75 0 10-1.06-1.06l-1.72 1.72V12a.75.75 0 00-1.5 0v4.19l-1.72-1.72a.75.75 0 00-1.06 1.06l3 3z"
+                  clip-rule="evenodd"
+                ></path>
+                <path
+                  d="M14.25 5.25a5.23 5.23 0 00-1.279-3.434 9.768 9.768 0 016.963 6.963A5.23 5.23 0 0016.5 7.5h-1.875a.375.375 0 01-.375-.375V5.25z"
+                ></path></svg
+              >Download Resume
+            </button>
             <button
               class="fadein-bot fade-500 flex items-center py-2 px-4 text-sm font-medium rounded-lg border transition duration-300 md:py-2.5 md:px-5 text-sky-200 border-sky-200 hover:bg-sky-200 hover:bg-opacity-10 bg-transparent focus:outline-none ml-2"
               @click="whatsApp"
@@ -273,64 +284,76 @@ export default {
       </div>
       <section class="container experiences">
         <div class="experience-item text-base mb-3 fadein-left">
-          <p class="text-xl text-sky-200 font-bold">Web Developer</p>
-          <p class="text-base font-bold">
-            2021 - Present | PT Dutaflow Hidrolik
-          </p>
-          <ul class="text-base">
-            <li>- Developing Company Profile using PHP Laravel</li>
-            <li>
-              - Sets up query from database in backend side to fetch with
-              frontend side.
-            </li>
-            <li>- Maintenance and fix some bugs.</li>
-            <li>- Doing collaboration with team.</li>
-          </ul>
-        </div>
-        <div class="experience-item text-base mb-3 fadein-left">
           <p class="text-xl text-sky-200 font-bold">
-            Mobile Apps Developer Intern
+            Freelance— Full Stack Developer
           </p>
           <p class="text-base font-bold">
-            2023 | Bank Mandiri x Rakamin Academy (Remote)
+            <i>Aug 2023 - Present</i>
           </p>
           <ul class="text-base">
             <li>
-              The program involves completing various tasks related to Mobile
-              Apps Development for Bank Mandiri, such as:
+              <b>1) Project Delivery: </b> Successfully delivered 2 D2C
+              full-stack projects, exceeding client expectations and deadlines.
             </li>
             <li>
-              - Android: Environment & Lifecycle, UI and Design Pattern,
-              RecyclerView, and Database.
-            </li>
-            <li>- Kotlin: XML, Gradle, Principles of Kotlin, and OOP.</li>
-            <li>
-              - iOS: Swift, XCode Mastery, UI in iOS, Collections and
-              Localization, and Data Persistence and Web Services.
+              <b>2) Performance Optimization: </b> Enhanced application
+              performance by optimizing code and database queries, leading to a
+              25% reduction in load times.
             </li>
             <li>
-              - Unit Testing: Principles of Unit Testing, Unit Testing Tools,
-              Unit Testing Instrument.
+              <b>3) Positive Feedback: </b> Received positive feedback and
+              recommendations from both of my clients for professionalism and
+              technical expertise.
             </li>
             <li>
-              - Gitlab: Principles of Gitlab, Operation, and Features of Gitlab.
-            </li>
-            <li>
-              - API (Aplication Programing Interface): Principles of API, Basic
-              Operation of API, Restful API.
+              <b>4) Requirement Gathering: </b> Participated in 60+ detailed
+              discussions with clients to identify gaps in consumer brands and
+              their problems solved through technology.
             </li>
           </ul>
         </div>
         <div class="experience-item text-base mb-3 fadein-left">
-          <p class="text-xl text-sky-200 font-bold">Freelance Web Developer</p>
-          <p class="text-base font-bold">2022 - 2023 | Upwork</p>
+          <p class="text-xl text-sky-200 font-bold">DevOps Engineer - Intern</p>
+          <p class="text-base font-bold">
+            <i>INFRASITY , Delhi -> May 2023 - July 2023</i>
+          </p>
           <ul class="text-base">
-            <li>- Engineered modern applications with Node Js, React JS</li>
-            <li>- Work on application deployment to cloud servers.</li>
             <li>
-              - Confirmed that completed software met client requirements.
+              <b>1) CI/CD Pipelines: </b> Built and maintained CI/CD pipelines using Jenkins and Github Actions.
             </li>
-            <li>- Bug Fixing.</li>
+            <li>
+              <b>2) Infrastructure Management: </b> Managed and monitored cloud infrastructure on AWS.
+            </li>
+            <li>
+              <b>3) Automation: </b>  Automated repetitive tasks using scripts and tools like Terraform.
+            </li>
+            <li>
+              <b>4) Deployment Efficiency: </b>   Reduced deployment time by 30% through automated CI/CD pipelines.
+            </li>
+            <li>
+              <b>5) Savings: </b>  Achieved a 15% reduction in infrastructure costs by optimizing resource usage.
+            </li>
+            <li>
+              <b>6) Tool Evaluation: </b>  Evaluated and implemented new tools and technologies to enhance DevOps practices, improving team efficiency by 20%.
+            </li>
+          </ul>
+        </div>
+        <div class="experience-item text-base mb-3 fadein-left">
+          <p class="text-xl text-sky-200 font-bold">Technical Head</p>
+          <p class="text-base font-bold"><i>ENCRYPT, The Tech Society of CVS -> 2022</i></p>
+          <ul class="text-base">
+            <li>
+              <b>1) Successful Projects: </b>  Generated total INR 35,000+ is sponsorship for 3 Hackathon meets and 4 cultural events organized at CVS.
+            </li>
+            <li>
+              <b>2) Event Participation: </b>  Increased event participation by 50% through effective promotion and organization.
+            </li>
+            <li>
+              <b>3) Skill Development: </b>   Facilitated skill development workshops that benefited 100+ students.
+            </li>
+            <li>
+              <b>4) Recognition: </b>  Facilitated a 10% growth in footfall by promoting Annual College Fest “Tatva”, recording 1500+ attendees.
+            </li>
           </ul>
         </div>
       </section>
