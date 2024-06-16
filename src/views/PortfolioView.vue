@@ -64,16 +64,16 @@ export default {
         //   demo: 'https://github.com/rizkinugrohho/MobileApplication_Weather-App',
         //   category: 'mobile'
         // },
-        // {
-        //   id: 7,
-        //   name: 'Mandiri News App',
-        //   imageUrl: 'mandiri',
-        //   status: 'Challenge from Bank Mandiri - Creating an Android Mobile Application that displays a list of news using API from https://newsapi.org',
-        //   tech: 'Kotlin, RestAPi, Android',
-        //   github: 'https://github.com/rizkinugrohho/MobileApplication_MandiriNews',
-        //   demo: 'https://github.com/rizkinugrohho/MobileApplication_MandiriNews',
-        //   category: 'mobile'
-        // },
+        {
+          id: 7,
+          name: 'ProvenienceX',
+          imageUrl: 'provinceX',
+          status: 'ProvenienceX is all about tracking the product by scanning barcodes and giving product ingredients, packaging and tracking details.',
+          tech: 'React Native, JavaScript',
+          // github: 'https://github.com/rizkinugrohho/MobileApplication_MandiriNews',
+          // demo: 'https://github.com/rizkinugrohho/MobileApplication_MandiriNews',
+          category: 'mobile'
+        },
         // {
         //   id: 8,
         //   name: 'Progresive Web App React Js',

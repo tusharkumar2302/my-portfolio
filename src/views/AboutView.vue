@@ -193,7 +193,7 @@ export default {
         <div class="md:w-7/12">
           <p class="text-base mb-3 md:mb-7 fadein-left fadeins-1">
             &nbsp; &nbsp; &nbsp; Hi everyone! My name is Tushar Kumar, a
-            22-year-old Full Stack Developer from India. With over 2+ years of
+            22-year-old Software Engineer from India. With over 2+ years of
             experience, I specialize in creating functional, user-friendly, and
             visually appealing websites and applications. I am proficient in a
             wide range of programming languages and frameworks, including
@@ -285,7 +285,7 @@ export default {
       <section class="container experiences">
         <div class="experience-item text-base mb-3 fadein-left">
           <p class="text-xl text-sky-200 font-bold">
-            Freelance— Full Stack Developer
+            Freelance— Software Engineer
           </p>
           <p class="text-base font-bold">
             <i>Aug 2023 - Present</i>

@@ -36,7 +36,7 @@ export default {
   name: 'HomeView',
   data() {
     return {
-      toRotate: ["Full Stack Developer"],
+      toRotate: ["Software Engineer"],
       period: 2000,
       txt: '',
       loopNum: 0,
