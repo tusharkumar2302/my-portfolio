@@ -1,5 +1,5 @@
-# my-portofolio-v2
-Live Demo : https://rizkinugroho.netlify.app
+# my-portofolio
+Live Demo : https://main--tushar-kumar-portfolio.netlify.app/
 
 ## Project setup
 ```
