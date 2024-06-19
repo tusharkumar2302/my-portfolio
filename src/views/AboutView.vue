@@ -193,7 +193,7 @@ export default {
         <div class="md:w-7/12">
           <p class="text-base mb-3 md:mb-7 fadein-left fadeins-1">
             &nbsp; &nbsp; &nbsp; Hi everyone! My name is Tushar Kumar, a
-            22-year-old Software Engineer from India. With over 2+ years of
+           Software Engineer from India. With over 2+ years of
             experience, I specialize in creating functional, user-friendly, and
             visually appealing websites and applications. I am proficient in a
             wide range of programming languages and frameworks, including
@@ -306,7 +306,7 @@ export default {
               technical expertise.
             </li>
             <li>
-              <b>4) Requirement Gathering: </b> Participated in 60+ detailed
+              <b>4) Requirement Gathering: </b> Participated in 20+ detailed
               discussions with clients to identify gaps in consumer brands and
               their problems solved through technology.
             </li>
@@ -331,10 +331,12 @@ export default {
               <b>4) Deployment Efficiency: </b>   Reduced deployment time by 30% through automated CI/CD pipelines.
             </li>
             <li>
-              <b>5) Savings: </b>  Achieved a 15% reduction in infrastructure costs by optimizing resource usage.
+              <b>5) Savings: </b>  Achieved a 15% reduction in infrastructure costs with Savings Plans (Compute, EC2, Amazon SageMaker) and
+              Reserved Instances (Amazon RDS, Amazon Redshift, Amazon ElastiCache, Amazon OpenSearch Service, Amazon DynamoDB).
             </li>
             <li>
-              <b>6) Tool Evaluation: </b>  Evaluated and implemented new tools and technologies to enhance DevOps practices, improving team efficiency by 20%.
+              <b>6) Tool Integration: </b>  Worked with the company named Terramate and helped their software in integrating into the existing
+              projects and also wrote tech content for them.
             </li>
           </ul>
         </div>
