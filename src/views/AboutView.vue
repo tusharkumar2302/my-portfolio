@@ -23,7 +23,7 @@ export default {
           name: "Javascript",
           imageUrl:
             "https://cdn.icon-icons.com/icons2/2415/PNG/512/javascript_original_logo_icon_146455.png",
-          status: "Advance",
+          status: "Intermediate",
         },
         // {
         //   id: 4,
@@ -51,7 +51,7 @@ export default {
           name: "React Native",
           imageUrl:
             "https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-512.png",
-          status: "Advance",
+          status: "Intermediate",
         },
         // {
         //   id: 8,
@@ -65,7 +65,7 @@ export default {
           name: "ReactJS",
           imageUrl:
             "https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-512.png",
-          status: "Advance",
+          status: "Intermediate",
         },
         // {
         //   id: 10,
@@ -140,13 +140,14 @@ export default {
       ],
     };
   },
-  methods: {
-    downloadResume() {
-      window.open(
-        "https://drive.google.com/drive/folders/1kque2N6DRdftKRRj2Zd3KhOcZtv4xvu9",
-        "_blank"
-      );
-    },
+  methods: 
+  {
+    // downloadResume() {
+    //   window.open(
+    //     "https://drive.google.com/drive/folders/1kque2N6DRdftKRRj2Zd3KhOcZtv4xvu9",
+    //     "_blank"
+    //   );
+    // },
     whatsApp() {
       window.open(
         "https://api.whatsapp.com/send/?phone=918512037083&text=Hello%20Tushar%20Kumar,%20nice%20to%20meet%20you!",
@@ -208,7 +209,7 @@ export default {
             listed contact.
           </p>
           <div class="py-3 flex">
-            <button
+            <!-- <button
               class="fadein-bot fade-500 flex items-center py-2 px-4 text-sm font-medium rounded-lg border transition duration-300 md:py-2.5 md:px-5 text-sky-200 border-sky-200 hover:bg-sky-200 hover:bg-opacity-10 bg-transparent focus:outline-none"
               @click="downloadResume"
             >
@@ -227,7 +228,7 @@ export default {
                   d="M14.25 5.25a5.23 5.23 0 00-1.279-3.434 9.768 9.768 0 016.963 6.963A5.23 5.23 0 0016.5 7.5h-1.875a.375.375 0 01-.375-.375V5.25z"
                 ></path></svg
               >Download Resume
-            </button>
+            </button> -->
             <button
               class="fadein-bot fade-500 flex items-center py-2 px-4 text-sm font-medium rounded-lg border transition duration-300 md:py-2.5 md:px-5 text-sky-200 border-sky-200 hover:bg-sky-200 hover:bg-opacity-10 bg-transparent focus:outline-none ml-2"
               @click="whatsApp"
