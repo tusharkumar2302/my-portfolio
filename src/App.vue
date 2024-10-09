@@ -9,7 +9,7 @@
           <span class="self-center text-lg text-[#87CEEB] font-semibold whitespace-nowrap fadein-bot hover:text-sky-100">Tushar Kumar</span>
         </button>
         <div class="flex md:order-2 fadein-bot">
-          <!-- <a href="https://github.com/tusharkumar2302" target="_blank"><img class="w-9 rounded-full" src="https://seeklogo.com/images/G/github-logo-2E3852456C-seeklogo.com.png" alt="github"></a> -->
+          <a href="https://github.com/tusharkumar2302" target="_blank"><img class="w-9 rounded-full" src="https://seeklogo.com/images/G/github-logo-2E3852456C-seeklogo.com.png" alt="github"></a>
           <a href="https://www.linkedin.com/in/tushar-kumar-3325051a6/" target="_blank"><img class="w-9 rounded-full ml-2" src="https://cdn1.iconfinder.com/data/icons/logotypes/32/square-linkedin-512.png" alt="github"></a>
           <a href="https://www.instagram.com/tusharkumar2302/" target="_blank"><img class="w-9 rounded-full ml-2" src="https://cdn3.iconfinder.com/data/icons/2018-social-media-logotypes/1000/2018_social_media_popular_app_logo_instagram-512.png" alt="github"></a>
         </div>
