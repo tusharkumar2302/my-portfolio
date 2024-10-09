@@ -181,98 +181,78 @@ export default {
         </div>
       </header>
 
-      <section
-        class="text-sm md:text-lg text-justify flex flex-col gap-4 md:flex-row md:gap-8 md:justify-left md:items-center"
+<section
+  class="text-sm my-10 md:text-lg text-justify flex flex-col gap-4 md:flex-row md:gap-8 md:justify-left md:items-center "
+>
+  <div class="flex justify-center w-full md:w-1/2 ">
+    <img
+      class="w-7/12 md:w-[80%] mb-3 fadein-up"
+      src="../assets/picture2.jpg"
+      alt="Foto"
+    />
+  </div>
+  <div class="md:w-1/2">
+    <p class="text-base mb-3 md:mb-7 fadein-left fadeins-1">
+      &nbsp; &nbsp; &nbsp; Hi everyone! My name is Tushar Kumar, a Software
+      Engineer from India. With over 2+ years of experience, I specialize in
+      creating functional, user-friendly, and visually appealing websites and
+      applications. I am proficient in a wide range of programming languages and
+      frameworks, including TypeScript, ReactJs, React-Native, Node.js, and AWS.
+    </p>
+    <p class="text-base mb-3 fadein-left fadeins-2">
+      &nbsp; &nbsp; &nbsp; My focus is on ensuring that your digital products
+      not only perform flawlessly but also stand out with a personal touch. I
+      aim to effectively convey your message and brand identity through creative
+      and intuitive design also making sure that it is easy to use. If you're
+      looking to enhance your online presence, feel free to reach out to me at
+      the listed contact.
+    </p>
+    <div class="py-3 flex">
+      <button
+        class="fadein-bot fade-500 flex items-center py-2 px-4 text-sm font-medium rounded-lg border transition duration-300 md:py-2.5 md:px-5 text-sky-200 border-sky-200 hover:bg-sky-200 hover:bg-opacity-10 bg-transparent focus:outline-none ml-2"
+        @click="whatsApp"
       >
-        <div class="flex justify-center">
-          <img
-            class="w-7/12 rounded-full mb-3 fadein-up"
-            src="../assets/picture2.jpg"
-            alt="Foto"
-          />
-        </div>
-        <div class="md:w-7/12">
-          <p class="text-base mb-3 md:mb-7 fadein-left fadeins-1">
-            &nbsp; &nbsp; &nbsp; Hi everyone! My name is Tushar Kumar, a
-           Software Engineer from India. With over 2+ years of
-            experience, I specialize in creating functional, user-friendly, and
-            visually appealing websites and applications. I am proficient in a
-            wide range of programming languages and frameworks, including
-            TypeScript, ReactJs, React-Native, Node.js, and AWS.
-          </p>
-          <p class="text-base mb-3 fadein-left fadeins-2">
-            &nbsp; &nbsp; &nbsp; My focus is on ensuring that your digital
-            products not only perform flawlessly but also stand out with a
-            personal touch. I aim to effectively convey your message and brand
-            identity through creative and intuitive design also making sure that it is easy to use. If you're looking to
-            enhance your online presence, feel free to reach out to me at the
-            listed contact.
-          </p>
-          <div class="py-3 flex">
-            <!-- <button
-              class="fadein-bot fade-500 flex items-center py-2 px-4 text-sm font-medium rounded-lg border transition duration-300 md:py-2.5 md:px-5 text-sky-200 border-sky-200 hover:bg-sky-200 hover:bg-opacity-10 bg-transparent focus:outline-none"
-              @click="downloadResume"
-            >
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 24 24"
-                fill="currentColor"
-                class="mr-2 w-4 h-4"
-              >
-                <path
-                  fill-rule="evenodd"
-                  d="M5.625 1.5H9a3.75 3.75 0 013.75 3.75v1.875c0 1.036.84 1.875 1.875 1.875H16.5a3.75 3.75 0 013.75 3.75v7.875c0 1.035-.84 1.875-1.875 1.875H5.625a1.875 1.875 0 01-1.875-1.875V3.375c0-1.036.84-1.875 1.875-1.875zm5.845 17.03a.75.75 0 001.06 0l3-3a.75.75 0 10-1.06-1.06l-1.72 1.72V12a.75.75 0 00-1.5 0v4.19l-1.72-1.72a.75.75 0 00-1.06 1.06l3 3z"
-                  clip-rule="evenodd"
-                ></path>
-                <path
-                  d="M14.25 5.25a5.23 5.23 0 00-1.279-3.434 9.768 9.768 0 016.963 6.963A5.23 5.23 0 0016.5 7.5h-1.875a.375.375 0 01-.375-.375V5.25z"
-                ></path></svg
-              >Download Resume
-            </button> -->
-            <button
-              class="fadein-bot fade-500 flex items-center py-2 px-4 text-sm font-medium rounded-lg border transition duration-300 md:py-2.5 md:px-5 text-sky-200 border-sky-200 hover:bg-sky-200 hover:bg-opacity-10 bg-transparent focus:outline-none ml-2"
-              @click="whatsApp"
-            >
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 24 24"
-                fill="currentColor"
-                class="mr-2 w-4 h-4"
-              >
-                <path
-                  fill-rule="evenodd"
-                  d="M5.625 1.5H9a3.75 3.75 0 013.75 3.75v1.875c0 1.036.84 1.875 1.875 1.875H16.5a3.75 3.75 0 013.75 3.75v7.875c0 1.035-.84 1.875-1.875 1.875H5.625a1.875 1.875 0 01-1.875-1.875V3.375c0-1.036.84-1.875 1.875-1.875zm5.845 17.03a.75.75 0 001.06 0l3-3a.75.75 0 10-1.06-1.06l-1.72 1.72V12a.75.75 0 00-1.5 0v4.19l-1.72-1.72a.75.75 0 00-1.06 1.06l3 3z"
-                  clip-rule="evenodd"
-                ></path>
-                <path
-                  d="M14.25 5.25a5.23 5.23 0 00-1.279-3.434 9.768 9.768 0 016.963 6.963A5.23 5.23 0 0016.5 7.5h-1.875a.375.375 0 01-.375-.375V5.25z"
-                ></path></svg
-              >WhatsApp
-            </button>
-            <!-- Tombol Ketiga -->
-            <button
-              class="fadein-bot fade-500 flex items-center py-2 px-4 text-sm font-medium rounded-lg border transition duration-300 md:py-2.5 md:px-5 text-sky-200 border-sky-200 hover:bg-sky-200 hover:bg-opacity-10 bg-transparent focus:outline-none ml-2"
-              @click="email"
-            >
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 24 24"
-                fill="currentColor"
-                class="mr-2 w-4 h-4"
-              >
-                <path
-                  fill-rule="evenodd"
-                  d="M5.625 1.5H9a3.75 3.75 0 013.75 3.75v1.875c0 1.036.84 1.875 1.875 1.875H16.5a3.75 3.75 0 013.75 3.75v7.875c0 1.035-.84 1.875-1.875 1.875H5.625a1.875 1.875 0 01-1.875-1.875V3.375c0-1.036.84-1.875 1.875-1.875zm5.845 17.03a.75.75 0 001.06 0l3-3a.75.75 0 10-1.06-1.06l-1.72 1.72V12a.75.75 0 00-1.5 0v4.19l-1.72-1.72a.75.75 0 00-1.06 1.06l3 3z"
-                  clip-rule="evenodd"
-                ></path>
-                <path
-                  d="M14.25 5.25a5.23 5.23 0 00-1.279-3.434 9.768 9.768 0 016.963 6.963A5.23 5.23 0 0016.5 7.5h-1.875a.375.375 0 01-.375-.375V5.25z"
-                ></path></svg
-              >Email
-            </button>
-          </div>
-        </div>
-      </section>
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 24 24"
+          fill="currentColor"
+          class="mr-2 w-4 h-4"
+        >
+          <path
+            fill-rule="evenodd"
+            d="M5.625 1.5H9a3.75 3.75 0 013.75 3.75v1.875c0 1.036.84 1.875 1.875 1.875H16.5a3.75 3.75 0 013.75 3.75v7.875c0 1.035-.84 1.875-1.875 1.875H5.625a1.875 1.875 0 01-1.875-1.875V3.375c0-1.036.84-1.875 1.875-1.875zm5.845 17.03a.75.75 0 001.06 0l3-3a.75.75 0 10-1.06-1.06l-1.72 1.72V12a.75.75 0 00-1.5 0v4.19l-1.72-1.72a.75.75 0 00-1.06 1.06l3 3z"
+            clip-rule="evenodd"
+          ></path>
+          <path
+            d="M14.25 5.25a5.23 5.23 0 00-1.279-3.434 9.768 9.768 0 016.963 6.963A5.23 5.23 0 0016.5 7.5h-1.875a.375.375 0 01-.375-.375V5.25z"
+          ></path></svg
+        >WhatsApp
+      </button>
+      <!-- Tombol Ketiga -->
+      <button
+        class="fadein-bot fade-500 flex items-center py-2 px-4 text-sm font-medium rounded-lg border transition duration-300 md:py-2.5 md:px-5 text-sky-200 border-sky-200 hover:bg-sky-200 hover:bg-opacity-10 bg-transparent focus:outline-none ml-2"
+        @click="email"
+      >
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 24 24"
+          fill="currentColor"
+          class="mr-2 w-4 h-4"
+        >
+          <path
+            fill-rule="evenodd"
+            d="M5.625 1.5H9a3.75 3.75 0 013.75 3.75v1.875c0 1.036.84 1.875 1.875 1.875H16.5a3.75 3.75 0 013.75 3.75v7.875c0 1.035-.84 1.875-1.875 1.875H5.625a1.875 1.875 0 01-1.875-1.875V3.375c0-1.036.84-1.875 1.875-1.875zm5.845 17.03a.75.75 0 001.06 0l3-3a.75.75 0 10-1.06-1.06l-1.72 1.72V12a.75.75 0 00-1.5 0v4.19l-1.72-1.72a.75.75 0 00-1.06 1.06l3 3z"
+            clip-rule="evenodd"
+          ></path>
+          <path
+            d="M14.25 5.25a5.23 5.23 0 00-1.279-3.434 9.768 9.768 0 016.963 6.963A5.23 5.23 0 0016.5 7.5h-1.875a.375.375 0 01-.375-.375V5.25z"
+          ></path></svg
+        >Email
+      </button>
+    </div>
+  </div>
+</section>
+
       <div
         class="text-2xl font-bold text-white mb-5 fadein-bot title-section flex items-center"
       >
@@ -341,7 +321,7 @@ export default {
             </li>
           </ul>
         </div>
-        <div class="experience-item text-base mb-3 fadein-left">
+        <!-- <div class="experience-item text-base mb-3 fadein-left">
           <p class="text-xl text-sky-200 font-bold">Technical Head</p>
           <p class="text-base font-bold"><i>ENCRYPT, The Tech Society of CVS -> 2022</i></p>
           <ul class="text-base">
@@ -358,7 +338,7 @@ export default {
               <b>4) Recognition: </b>  Facilitated a 10% growth in footfall by promoting Annual College Fest “Tatva”, recording 1500+ attendees.
             </li>
           </ul>
-        </div>
+        </div> -->
       </section>
     </article>
   </div>
@@ -415,7 +395,7 @@ export default {
                 class="item-tech flex cursor-pointer items-center gap-2 rounded border border-sky-200 px-2 py-2 hover:bg-sky-200 hover:bg-opacity-10 md:gap-3 lg:px-3"
               >
                 <div
-                  class="flex h-12 w-12 items-center justify-center p-0 lg:h-16 lg:w-16 lg:p-2 zoom-in"
+                  class="flex h-12 w-12 items-center justify-center p-0 lg:h-16 lg:w-16 lg:p-2 zoom-in "
                 >
                   <img
                     alt="HTML"
